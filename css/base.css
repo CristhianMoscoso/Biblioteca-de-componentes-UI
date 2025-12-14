@@ -5,14 +5,14 @@
 /* --- VARIABLES GLOBALES --- */
 :root {
   /* Colores */
-  --color-primary: #d664cd;
-  --color-primary-hover: #d664cd;
-  --color-secondary: #f1a8e2;
-  --color-bg: #fce7f9;
-  --color-bg-dark: #f00dca;
-  --color-text: #fc1ab0;
-  --color-text-light: #fce7f9;
-  --color-border: #D1D5DB;
+  --color-primary: #554d81;
+  --color-primary-hover: #30292f;
+  --color-secondary: #3d333b;
+  --color-bg: #98c0cf;
+  --color-bg-dark: #98c0cf;
+  --color-text: #98c0cf;
+  --color-text-light: #98c0cf;
+  --color-border: #98c0cf;
 
   /* Tipografía */
   --font-base: "Poppins", sans-serif;

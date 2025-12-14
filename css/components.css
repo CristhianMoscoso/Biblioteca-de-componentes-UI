@@ -1,11 +1,7 @@
-/* -------------------------
-   COMPONENTS.CSS – UI LIBRARY
--------------------------- */
-
 /* --- BOTONES ---*/
 .btn {
   padding: .75rem 1.5rem;
-  border-radius: var(--radius);
+  border-radius: 35%;
   border: none;
   cursor: pointer;
   font-weight: 600;
@@ -51,6 +47,7 @@
   border: 1px solid var(--color-border);
   transition: var(--transition);
 }
+
 .card:hover {
   transform: translateY(-4px);
 }
@@ -189,13 +186,13 @@
   padding: 1rem;
   cursor: pointer;
   background: var(--color-primary);
-  color: white;
+  color: rgb(238, 181, 181);
 }
 
 .acordeon-content {
   padding: 1rem;
   display: none;
-  background: white;
+  background: rgb(199, 151, 151);
 }
 
 /* --- TABS --- */
@@ -203,6 +200,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  background: transparent;
 }
 
 .tab {
@@ -226,7 +224,6 @@
   display: block;
 }
 /* --- TARJETAS MEJORADAS --- */
-
 .card {
   background: var(--color-light);
   border-radius: var(--radius);
@@ -260,4 +257,7 @@
   margin-bottom: 1rem;
   color: #555;
   line-height: 1.4;
+}
+.page-container{
+  background-color: rgb(221, 241, 241);
 }
